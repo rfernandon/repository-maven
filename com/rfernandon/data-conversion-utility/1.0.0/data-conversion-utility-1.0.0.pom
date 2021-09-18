@@ -28,6 +28,10 @@
         <sonar.links.scm>https://github.com/rfernandon/data-conversion-utility</sonar.links.scm>
         <sonar.links.issue>https://github.com/rfernandon/data-conversion-utility/issues</sonar.links.issue>
         <sonar.qualitygate.wait>true</sonar.qualitygate.wait>
+
+        <sonar.exclusions>
+            src/main/java/com/rfernandon/dataconversion/ObjectMapperUtil.java
+        </sonar.exclusions>
     </properties>
 
     <distributionManagement>
@@ -68,6 +72,12 @@
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
             <version>5.6.2</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <version>3.4.6</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
