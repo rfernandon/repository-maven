@@ -28,11 +28,6 @@
         <sonar.links.scm>https://github.com/rfernandon/data-conversion-utility</sonar.links.scm>
         <sonar.links.issue>https://github.com/rfernandon/data-conversion-utility/issues</sonar.links.issue>
         <sonar.qualitygate.wait>true</sonar.qualitygate.wait>
-        <sonar.exclusions>
-            src/main/java/com/rfernandon/exceptionhandler/exceptions/*.java,
-            src/main/java/com/rfernandon/exceptionhandler/model/ErrorDetails.java,
-            src/main/java/com/rfernandon/exceptionhandler/utils/ParseUtil.java
-        </sonar.exclusions>
     </properties>
 
     <distributionManagement>
