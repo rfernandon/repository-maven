@@ -33,6 +33,17 @@
         </sonar.exclusions>
     </properties>
 
+    <repositories>
+        <repository>
+            <id>rfernandon-repo</id>
+            <url>https://raw.github.com/rfernandon/repository-maven/main/</url>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
+        </repository>
+    </repositories>
+
     <distributionManagement>
         <repository>
             <id>internal.repo</id>
@@ -47,6 +58,13 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <!-- componentes proprios -->
+        <dependency>
+            <groupId>com.rfernandon</groupId>
+            <artifactId>data-conversion-utility</artifactId>
+            <version>1.0.0</version>
         </dependency>
 
         <!-- dependencias diversas -->
