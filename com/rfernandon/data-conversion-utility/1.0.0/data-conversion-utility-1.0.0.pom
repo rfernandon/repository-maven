@@ -29,9 +29,7 @@
         <sonar.links.issue>https://github.com/rfernandon/data-conversion-utility/issues</sonar.links.issue>
         <sonar.qualitygate.wait>true</sonar.qualitygate.wait>
 
-        <sonar.exclusions>
-            src/main/java/com/rfernandon/dataconversion/ObjectMapperUtil.java
-        </sonar.exclusions>
+        <sonar.exclusions></sonar.exclusions>
     </properties>
 
     <distributionManagement>
